@@ -1,28 +1,33 @@
 \usepackage[scale=0.8]{geometry}
 
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}% Latin Modern フォントを使う
-
 %% ブックマーク
 \usepackage[hidelinks,pdfusetitle]{hyperref}
 \usepackage{pxjahyper}
+\usepackage{url} % \url{https:~}
 
-%% 和文フォント
+%% フォント系
 \usepackage[deluxe]{otf}
 \usepackage[haranoaji]{pxchfon}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}% Latin Modern フォントを使う
 
-%% 画像
+%% 表とか画像とか
 \usepackage{graphicx}
-
-\usepackage{booktabs}
-\usepackage{multirow}
-\usepackage{siunitx} % \SI{12}{\micro m}
-\usepackage{amsmath,amssymb}
-\usepackage{url} % \url{https:~}
 \usepackage{here} % [H]
 %\usepackage{subcaption} % minipageと併用
 %\usepackage{caption}
 %\captionsetup{compatibility=false, labelsep=quad} % captionの設定
+
+%% 表関連
+\usepackage{booktabs}
+\usepackage{multirow}
+
+%% Si単位系
+\usepackage{siunitx} % \SI{12}{\micro m}
+
+%% 数式系
+\usepackage{amsmath,amssymb}
+
 
 \newcommand{\x}{\Vec{x}}
 \newcommand{\pt}[1]{\left(#1\right)} % () \pi{}
